@@ -31,7 +31,7 @@ function favouriteMovieGenre(font) {
     if (font) {
         setProp("--font", "var(--" + font + ")");    
     }
-}
+} 
 
 function favouriteMode(mode) {
     if (mode === "light" || !mode) {
